@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--basicColor-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorLightPrimary">#C5CAE9</color>
+    <color name="colorIntroLightPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF5252</color>
+    <color name="colorAccentDark">#D32F2F</color>
+    <color name="textPrimaryColor">#212121</color>
+    <color name="textSecondaryColor">#757575</color>
+    <color name="dividerColor">#BDBDBD</color>
+
+    <!--standardColor-->
+    <color name="standardWhite">#ffffff</color>
+    <color name="standardBlack">#000000</color>
+
+
+    <!--extractColor-->
+    <color name="lightOrange">#4CAF50</color>
+    <color name="transparent">#00000000</color>
+    <color name="halfTransparent">#40FFFFFF</color>
+</resources>

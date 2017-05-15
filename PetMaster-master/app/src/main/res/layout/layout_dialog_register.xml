@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <MaterialEditText
+        android:id="@+id/et_register_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_xl"
+        android:layout_marginRight="@dimen/margin_xl"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@."
+        android:hint="@string/intro_dialog_account"
+        android:singleLine="true"
+        app:backgroundColor="@color/colorPrimary"
+        app:floatingLabel="true" />
+
+    <MaterialEditText
+        android:id="@+id/et_register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_xl"
+        android:layout_marginRight="@dimen/margin_xl"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@."
+        android:hint="@string/intro_dialog_email"
+        android:singleLine="true"
+        app:backgroundColor="@color/colorPrimary"
+        app:floatingLabel="true" />
+
+    <MaterialEditText
+        android:id="@+id/et_register_psw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_xl"
+        android:layout_marginRight="@dimen/margin_xl"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@."
+        android:hint="@string/intro_dialog_psw"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        app:backgroundColor="@color/colorPrimary"
+        app:floatingLabel="true" />
+
+    <MaterialEditText
+        android:id="@+id/et_register_psw_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_xl"
+        android:layout_marginRight="@dimen/margin_xl"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@."
+        android:hint="@string/intro_dialog_psw_again"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        app:backgroundColor="@color/colorPrimary"
+        app:floatingLabel="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_xl"
+        android:layout_marginLeft="@dimen/margin_xl"
+        android:layout_marginRight="@dimen/margin_xl"
+        android:layout_marginTop="@dimen/margin_l"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_xl"
+            android:background="@drawable/bg_btn_light_selector"
+            android:padding="5dp"
+            android:text="@string/intro_dialog_register_btn"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_m" />
+    </LinearLayout>
+</LinearLayout>
